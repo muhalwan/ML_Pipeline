@@ -14,7 +14,6 @@ A simple Flask application showcasing the integration of the Prometheus metrics 
   - [Run the Application](#run-the-application)
 - [Available Endpoints](#available-endpoints)
 - [Integration with Prometheus](#integration-with-prometheus)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -77,10 +76,6 @@ scrape_configs:
 ```
 
 2. Reload or restart Prometheus.
-
-## Contributing
-
-Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) to get started.
 
 ## License
 
