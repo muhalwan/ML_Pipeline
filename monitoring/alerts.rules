@@ -1,0 +1,8 @@
+groups:
+- name: ml_alerts
+  rules:
+  - alert: HighRequestLatency
+    expr: request_processing_seconds > 0.5
+    for: 1m
+    annotations:
+      summary: "High request latency on {{ $labels.instance }}"
