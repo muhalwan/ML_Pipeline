@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ### Run the Application
 
 ```bash
-python app/main.py
+python web_app/main.py
 ```
 
 The application should now be running at `http://0.0.0.0:5000/`.
